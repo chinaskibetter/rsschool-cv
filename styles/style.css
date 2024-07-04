@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #4d2323;
+    background-color: cornsilk;
+}
+
+
+
+.header {
+    background-color: lemonchiffon;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #829985;
+    transition: 0.3s;
+}
+
+
+.main-container {
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-photo {
+    width: 50%;
+    border-radius: 20%;
+}
+
+.section {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+.profile-section {
+    background-color: burlywood;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+
+.profile-section__photo {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.description-cv {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.skills-item {
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: blanchedalmond;
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+.education-list__item {
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: blanchedalmond;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.code {
+    background-color: #d5d5d5;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-logo__github {
+    padding-top: 10px;
+    width: 100px;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
